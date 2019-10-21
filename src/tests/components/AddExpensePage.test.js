@@ -2,6 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import { AddExpensePage } from '../../components/AddExpensePage';
 import expenses from '../fixtures/expenses';
+import ReactTestUtils from 'react-dom/test-utils';
 
 let addExpense, history, wrapper;
 
